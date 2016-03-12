@@ -7,35 +7,57 @@ html {
 }
 
 body {
+  margin: 0;
   background-color: #f2f2f2;
-  margin: 1rem;
+}
+
+section{
+  background-color: #f2f2f2;
+	margin: 1rem;
 }
 
 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
   text-align: center;
+	margin-bottom: 1rem;
 }
 
 img {
+	display: block;
   width: 100px;
   margin-bottom: 1rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-div {
-  background-color: #e2e2e2;
+.card {
   font-family: "Open Sans", sans-serif;
   float: left;
   margin-bottom: 1rem;
-  padding: 1rem;
-  text-align: center;
-  width: 25%;
+	padding: 1rem;
+	width: 25%;
+}
+
+.card-1 {
+	background-color: #e2e2e2;
+}
+
+.card-2 {
+	background-color: #ccc;
+}
+
+.card-3 {
+	background-color: #aaa;
+}
+
+.card-4 {
+	background-color: #999;
 }
 
 h2 {
   font-size: 1rem;
   margin: 0;
-  text-align: left;
 }
 
 h3 {
@@ -43,14 +65,12 @@ h3 {
   font-size: 0.875rem;
   font-weight: normal;
   font-style: italic;
-  text-align: left;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
   margin: 0;
-  text-align: left;
 }
 
 a {
