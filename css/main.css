@@ -31,48 +31,65 @@ img {
   margin-right: auto;
 }
 
-.content {
-	margin: 5rem;
-}
-
-.card {
+.columns {
   font-family: "Open Sans", sans-serif;
-  float: left;
-  max-width: 25%;
+  display: flex;
+  padding: 1rem;
 }
 
-.card-1 {
+.col-1 {
   background-color: #e2e2e2;
+  border-left: 2px solid #333;
+  float: left;
+  padding: 1rem;
+  min-width: 10%;
+  width: 25%;
 }
 
-.card-2 {
+.col-2 {
   background-color: #ccc;
+  border-left: 2px solid #333;
+  float: left;
+  padding: 1rem;
+  min-width: 10%;
+  width: 25%;
 }
 
-.card-3 {
+.col-3 {
   background-color: #aaa;
+  border-left: 2px solid #333;
+  float: left;
+  padding: 1rem;
+  min-width: 10%;
+  width: 25%;
 }
 
-.card-4 {
+.col-4 {
 	background-color: #999;
+  border-right: 2px solid #333;
+  border-left: 2px solid #333;
+  float: left;
+  padding: 1rem;
+  min-width: 10%;
+  width: 25%;
 }
 
 h2 {
   font-size: 1rem;
-  margin: 0;
+  margin: .25rem 0 .25rem 0;
 }
 
 h3 {
-  margin: 0;
   font-size: 0.875rem;
   font-weight: normal;
   font-style: italic;
+  margin: .25rem 0 .25rem 0;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 0.875rem;
-  margin: 0;
+  margin: .25rem 0 .25rem 0;
 }
 
 a {
